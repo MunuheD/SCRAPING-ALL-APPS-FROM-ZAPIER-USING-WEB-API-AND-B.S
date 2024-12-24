@@ -1,7 +1,7 @@
 # Zapier Data Scraping Project
 
 ## Overview
-The goal of the project is to ETHICALLY extract all the apps (around 7700) listed in the Zapier platform; 
+The goal of the project is to ETHICALLY extract all the apps (around 7700) listed in the Zapier platform (https://zapier.com/apps); 
 the details to be scraped are the app's name, the app's description, and its unique URL.
 To extract the app's name and the links to crawl, I used a Python scraping tool that first used Zapier's web API,
 which I documented using Chrome's developer tool. I then used a crawler that applied Beautiful Soup to
@@ -80,7 +80,7 @@ The script adheres to ethical scraping practices by:
 - Including delays to prevent server overload.
 ### Disclaimer
 
-**Please note that this script relies on the structure of the uboat.net website to extract data.** If the website's layout or structure changes, the script may fail to work as expected. In such cases, the HTML parsing logic and URL generation may need to be updated to align with the new structure of the site.
+**Please note that this script relies on the structure of the https://zapier.com/apps website to extract data.** If the website's layout or structure changes, the script may fail to work as expected. In such cases, the HTML parsing logic and URL generation may need to be updated to align with the new structure of the site.
 
 ## Conclusion
 This project demonstrates an end-to-end data scraping solution, leveraging both APIs and web scraping techniques
