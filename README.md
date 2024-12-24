@@ -78,6 +78,9 @@ The script includes robust error handling:
 The script adheres to ethical scraping practices by:
 - Using a User-Agent header to identify requests.
 - Including delays to prevent server overload.
+### Disclaimer
+
+**Please note that this script relies on the structure of the uboat.net website to extract data.** If the website's layout or structure changes, the script may fail to work as expected. In such cases, the HTML parsing logic and URL generation may need to be updated to align with the new structure of the site.
 
 ## Conclusion
 This project demonstrates an end-to-end data scraping solution, leveraging both APIs and web scraping techniques
